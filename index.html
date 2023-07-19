@@ -31,10 +31,10 @@
 								</header>
 
 							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
+								<section id="banner" style="display: flex;">
+									<div class="content" style="flex: 1; margin-right: 100px ;">
 										<header>
-											<h1 align="justify">Olá, seja bem-vindo(a) ao meu portfólio de projetos de Ciência de Dados.<br /></h1>
+											<h1>Olá, seja bem-vindo(a) ao meu portfólio de projetos de Ciência de Dados.<br /></h1>
 										</header>
 										<p align="justify">Nesta página, demonstro minhas habilidades em resolver problemas de negócio utilizando conceitos e ferramentas da Ciência de Dados, por meio de projetos com dados públicos.
 
@@ -42,8 +42,8 @@
 											
 											As informações de contato estarão disponíveis no final da página.</p>
 									</div>
-									<span class="image object">
-										<img src="images/eu.jpg" alt="" />
+									<span class="image-container" style="margin-left: auto;">
+										<img src="images/eu.jpg" alt="" style="width: 350px; height: auto;"  />
 									</span>
 								</section>
 
@@ -55,9 +55,15 @@
 								
 									<!-- Content -->
 									<h2 id="content">Meu nome é Maycon Rocha</h2>
-									<p align="justify">Sou formado em Física pela UFSCar e estou em busca do meu primeiro emprego na área de Dados. </p>
-								    <p align="justify"> Atualmente, dedico-me a desenvolver projetos pessoais de Ciência de Dados, nos quais utilizo dados públicos para adquirir experiência na resolução de problemas de negócios e aprimorar meu domínio das ferramentas de Análise e Ciência de Dados.</p>
-									<p align="justify">Procuro uma oportunidade para trabalhar como Cientista de Dados de forma profissional, visando aprimorar a tomada de decisão das empresas por meio da criação de soluções baseadas em dados.</p>
+									<p align="justify">Sou graduado em Bacharelado em Física pela UFSCar, aluno na <a href="https://comunidadeds.com/"> Comunidade DS</a> e
+									também já na minha segunda graduação, em Ciência de Dados, pela UNIVESP. Venho me aprimorando constantemente na área de dados com o objetivo de ter
+									meu primeiro emprego na área. </p>
+
+								    <p align="justify"> Atualmente, dedico-me a desenvolver projetos pessoais de Ciência de Dados, nos quais utilizo dados públicos para
+									adquirir experiência na resolução de problemas de negócios e aprimorar meu domínio das ferramentas de Análise e Ciência de Dados. </p>
+
+									<p align="justify">Procuro uma oportunidade para trabalhar como Cientista de Dados de forma profissional, visando aprimorar a tomada
+										 de decisão das empresas por meio da criação de soluções baseadas em dados.</p>
 								</section>
 
 							<!-- Section -->
@@ -69,7 +75,7 @@
 										<article>
 											<span class="icon solid fa-terminal"></span>
 											<div class="content">
-												<h3>Linguagens de Progamação e Banco de Dados</h3>
+												<h3>Linguagens de Programação e Banco de Dados</h3>
 												<ul>
 													<li>Python com foco em análise de dados.</li>
 													<li>SQL para extração de dados.</li>
@@ -122,10 +128,10 @@
 										<h1>Experiências</h1>
 									</header>
 
-										<h2 id="content">Um projeto completo em Ciência de Dados</h2>
+										<h2 id="content">2+ projetos completos em Ciência de Dados</h2>
 										<p align="justify">	
 											Construção de soluções de dados para problemas de negócio, próximos dos desafios reais das empresas, utilizando dados públicos de competições
-											de Ciência de Dados utilizando o método CRISP-DS, onde abordei o problema desde a concepção do desafio de negócio até a publicação do algoritmo treinado em produção,
+											de Ciência de Dados utilizando o método CRISP-DS, onde abordo o problema desde a concepção do desafio de negócio até a publicação do algoritmo treinado em produção,
 											utilizando ferramentas de Cloud Computing.
 										</p>
 
@@ -139,7 +145,12 @@
 										<h2 id="content">Experiências acadêmicas</h2>
 										
 										<h3 id="content">Dois anos de iniciação cientifica</h3>
-										<p align="justify">Duas pesquisas desenvolvidas na área de supercondutividade junto ao Grupo de Supercondutividade e Magnetismo da UFSCar. As atividades envolviam simulações de dispositivos supercondutores e tratamento/manipulação de imagens, obtidas via técnica de Imageamento Magneto-Ótico, utilizando o software MATLAB.</p>
+										<p align="justify">Duas pesquisas desenvolvidas na área de supercondutividade junto ao Grupo de Supercondutividade e Magnetismo da UFSCar.
+										 As atividades envolviam simulações de dispositivos supercondutores e tratamento/manipulação de dados experimentais. </p>
+											
+										 <p align="justify">Um dos trabalhos desenvolvidos foi a implementação de um algoritmo, utilizando a linguagem MATLAB, que utiliza técnicas de Regressão
+										 Polinomial para converter dados de imagens de Imageamento Magneto-Ótico para valores de campo magnético. O algoritmo possibilita obter a penetração
+										 de fluxo magnético em filmes finos supercondutores e com isso calcular a distribuição de densidade de corrente no supercondutor. </p>
 
 										<h3 id="content">Dois anos em atividades de monitoria</h3>
 										<p align="justify">Atividades de monitoria, como correção de provas e exercícios, e monitoria ao vivo para tirar dúvidas de alunos em diversas disciplinas de matemática (Cálculo 1, Cálculo 2, Cálculo 3, Séries e equações diferenciais e Cálculo Numérico).</p>
@@ -148,13 +159,13 @@
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h1>Projetos em Ciência de Dados</h1>
+										<h1>Projetos em Análise/Ciência de Dados</h1>
 									</header>
 									<div class="posts">
 										<article>
 											<a href="https://github.com/MayconRochaaa/zomato_restaurants" class="image"><img src="images/zomato.jpg" alt="" /></a>
 											<h3>Desenvolvimento de um painel gerencial utilizando o Streamlit.</h3>
-											<p>Neste projeto utilizei conceitos de Programação em Python, manipulação de dados, pensamento estratégico e lógica de negócio, junto com ferramentas de desenvolvimento web como Streamlit e GitHub, para desenvolver um painel gerencial com as principais métricas de uma empresa de marketplace e delivery.</p>
+											<p align="justify">Neste projeto utilizei conceitos de Programação em Python, manipulação de dados, pensamento estratégico e lógica de negócio, junto com ferramentas de desenvolvimento web como Streamlit e GitHub, para desenvolver um painel gerencial com as principais métricas de uma empresa de marketplace e delivery.</p>
 											<h3>Ferramentas utilizadas:</h3>
 											<ul>
 												<li>Python.</li>
@@ -171,15 +182,29 @@
 										<article>
 											<a href="https://github.com/MayconRochaaa/rossmann_project" class="image"><img src="images/rossmann.jpg" alt="" /></a>
 											<h3>Desenvolvimento de um modelo de previsão de vendas.</h3>
-											<p>Neste projeto utilizei conceitos de Programação em Python, manipulação de dados, pensamento estratégico, lógica de negócio, análise estatística, machine learning e ferramentas de desenvolvimento web como Render API, Telegram API e GitHub, para criar e disponibilizar um modelo de previsão de vendas que pode ser consultado em um bot no app Telegram.</p>
-											<h3>Ferramentas utilizadas:</h3>
+											<h4>Objetivos</h4>
+											<p align="justify">Realizar a previsão das vendas diárias, com até seis semanas de
+										    	antecedência, das Lojas Rossmann com uma precisão mais assertiva utilizando dados os dados disponíveis das lojas.</p>
+
+											<h4>Resultados Financeiros</h4>
+											
+											<p align="justify">Com o modelo implementado, foram calculados diferentes cenários que preveem o faturamento destas lojas para as seis semanas
+											   seguintes. Estes cenários foram calculados considerando o erro MAE do modelo, de forma que, no pior cenário o faturamento total
+											   das lojas será de $281,752,205.36 e no melhor de $283,222,827.51.</p>
+											
+											<h4>Produto Final</h4>
+
+											<p align="justify">As predições podem ser acessadas via celular, através de um BOT no app Telegram, que retorna as predições
+											   após a consulta do algoritmo, posto em produção, via API. O usuário deve repassar o número da loja,
+											   'Store ID', para que receba a predição das vendas desta loja para as próximas seis semanas.</p>
+
+											<h4>Ferramentas utilizadas:</h4>
 											<ul>
-												<li>Python.</li>
-												<li>VSCode.</li>
-												<li>Terminal.</li>
-												<li>Render API.</li>
-												<li>Telegram API.</li>
-												<li>GitHub.</li>
+												<li>VSCode, Jupyter Notebook, Python, Terminal;</li>
+												<li>Análise de dados, Estatística descritiva;</li>
+												<li>Machine Learning, aplicando algoritmos de regressão (Bibliotecas: Sklearn e XGBoost);</li>
+												<li>Flask, Render API, Telegram API;</li>
+												<li>Git, GitHub.</li>
 											</ul>
 											<ul class="actions">
 												<li><a href="https://github.com/MayconRochaaa/rossmann_project" class="button">Saiba Mais</a></li>
@@ -188,16 +213,25 @@
 
 										<article>
 											<a href="https://github.com/MayconRochaaa/health_insurance" class="image"><img src="images/healthin.png" alt="" /></a>
-											<h3>Desenvolvimento de um modelo de propensão de compra.</h3>
-											<p>Neste projeto utilizei conceitos de Programação em Python, manipulação de dados, pensamento estratégico, lógica de negócio, análise estatística, machine learning e ferramentas de desenvolvimento web como Render API, Google App Script e GitHub, para criar e disponibilizar um modelo de ordenação de clientes para colocar os mais propensos à compra de um determinado produto no topo da lista. A ordenação das tabelas de clientes pode ser feitas via Google App Script através do Google Sheets.</p>
-											<h3>Ferramentas utilizadas:</h3>
+											<h3>Sistema de Rankeamento de Clientes - Cross-Selling de Seguros.</h3>
+											<h4>Objetivos</h4>
+											<p align="justify">Desenvolver um modelo que ordene a base de clientes de uma seguradora de saúde por propensão a adquirir um segundo seguro, de automóvel, visando otimizar as ligações feitas pelo time de vendas para a prospecção de clientes. </p>
+											<h4>Resultados Financeiros</h4>
+											<p align="justify">No cenário em que se tem uma base de 76.222 clientes, ao utilizar a base não ordenada estima-se que o retorno ao 
+											   contatar 20.000 clientes da base seja de R$187.200.000,00, enquanto que ao utilizar o modelo treinado o retorno é
+											   de R$518.400.000,00. Isso nos mostra que ao utilizar o modelo a empresa tem um potencial retorno 2,8 vezes maior.
+											</p>
+
+											<h4>Produto Final</h4>
+											<p align="justify">Como produto final foi implementado um botão em uma planilha no Google Sheets, via Google App Scripts, que ordena determinada
+											   tabela de clientes fornecida, colocando os mais propensos à compra no topo da lista.</p>
+
+											<h4>Ferramentas utilizadas:</h4>
 											<ul>
-												<li>Python.</li>
-												<li>VSCode.</li>
-												<li>Terminal.</li>
-												<li>Render API.</li>
-												<li>Google App Script.</li>
-												<li>GitHub.</li>
+												<li>VSCode, Jupyter Notebook, Python, JavaScript, Terminal;</li>
+												<li>Machine Learning, aplicando algoritmos de classificação (Bibliotecas: Sklearn e XGBoost).</li>
+												<li>Flask, Render API, Google App Script;</li>
+												<li>Git, GitHub.</li>
 											</ul>
 											<ul class="actions">
 												<li><a href="https://github.com/MayconRochaaa/health_insurance" class="button">Saiba Mais</a></li>
@@ -256,7 +290,7 @@
 
 								<section>
 									<header class="main">
-										<h1>Contatos</h1>
+										<h1>Contato</h1>
 									</header>
 							
 									<section>
